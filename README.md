@@ -26,7 +26,7 @@
 4. 点击 **"Capture Page"**。
 5. 插件会自动滚动页面、调整视口并进行捕获。
 6. 看到 "Copied to clipboard!" 提示后，打开 Figma。
-7. 在 Figma 中使用支持的插件（如 `html.to.design` 的粘贴功能）或直接粘贴即可生成图层。
+7. 在 Figma 中直接粘贴即可生成图层。
 
 ## 📄 文件结构
 
@@ -40,4 +40,4 @@
 - 对于极其复杂的 Canvas 或 WebGL 内容，捕获效果可能受限。
 
 ---
-*Inspired by professional web-to-design workflows.*
+*Inspired by html.to.design

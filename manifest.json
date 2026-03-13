@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Web2Figma",
+  "version": "1.0.0",
+  "description": "Capture current web page to Figma-ready format",
+  "author": "Terence",
+  "homepage_url": "https://github.com/terenzzzz",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardWrite",
+    "debugger",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
